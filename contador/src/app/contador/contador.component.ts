@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./contador.component.css']
 })
 
+
+
 export class ContadorComponent implements OnInit {
 
   public numero = 0;
@@ -17,7 +19,6 @@ export class ContadorComponent implements OnInit {
   constructor() {
 
    }
-
 
   ngOnInit(): void {
   }

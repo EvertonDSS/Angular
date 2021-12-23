@@ -1,1 +1,4 @@
-<app-contador></app-contador>
+
+<button (click)="toggle()">Mostrar contador</button>
+
+<app-contador *ngIf="mostraConteudo"></app-contador>

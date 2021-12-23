@@ -6,11 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'contador';
-
-  public mostraConteudo = false;
-
-  public toggle() {
-    this.mostraConteudo = !this.mostraConteudo;
-  }
+  title = 'livros';
 }
+
+
